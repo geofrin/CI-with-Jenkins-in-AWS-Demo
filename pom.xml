@@ -25,10 +25,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    
     <build>
         <pluginManagement>
             <plugins>
-                              <plugin>
+                <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <version>2.4</version>
@@ -41,7 +42,7 @@
             </plugins>
         </pluginManagement>
         <plugins>
-                       <plugin>
+                <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
